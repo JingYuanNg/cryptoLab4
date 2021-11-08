@@ -1,0 +1,46 @@
+AESWithCBC.java 
+Result after the first attempt to run the random generated IV: 
+IV : [B@41e36e46
+Plaintext: alphanumerically
+Ciphertext: 169ff4ae78bc6b1ef52817f1fafe1a78f7fb55911b05bb666733ebb62335726b
+Plaintext (decrypted): alphanumerically
+
+Result after the second attempt to run the random generated IV: 
+IV : [B@41e36e46
+Plaintext: alphanumerically
+Ciphertext: d7e5a99cca07e2f946e00302b3002dd0180725d4cc5bd4a95365540a88b1f8d7
+Plaintext (decrypted): alphanumerically
+
+Result after the third attempt to run the random generated IV: 
+IV : [B@41e36e46
+Plaintext: alphanumerically
+Ciphertext: 285e77881d5f131a1066fe6fff911728725b930aed9f40e08deabb6b0ff95a48
+Plaintext (decrypted): alphanumerically
+
+AESWithCS3Padding.java
+Result after the first attempt: 
+IV : [B@2145b572
+Plaintext: alphanumerically
+Ciphertext: d3f2b3e33452a6e4cbbe919fd45fc59b
+Plaintext (decrypted): alphanumerically
+
+Result after the second attempt: 
+IV : [B@2145b572
+Plaintext: alphanumerically
+Ciphertext: f8b763e64d6fa74a894500378900ea05
+Plaintext (decrypted): alphanumerically
+
+The length of the ciphertext get shorter
+
+AESWithCTR.java
+Result after the first attempt: 
+IV : [B@3d74bf60
+Plaintext: alphanumerically
+Ciphertext: 2a13f6c4ec95d79a1a7bcbb8767818b7
+Plaintext (decrypted): alphanumerically
+
+Result after the second attempt: 
+IV : [B@3d74bf60
+Plaintext: alphanumerically
+Ciphertext: 701820b14fc047a550543c2b8b43edc9
+Plaintext (decrypted): alphanumerically
